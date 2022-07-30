@@ -323,10 +323,13 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: green;
+  background-color: var(--main-color);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.social-icon {
+  fill: #ffffff;
 }
 .skills {
   font-size: 16px;
