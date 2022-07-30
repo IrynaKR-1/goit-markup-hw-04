@@ -328,19 +328,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--third-main-color);
 }
 .social-icon {
-  fill: var(--icon-main-color);
+  fill: currentColor;
 }
 .social-href:hover {
   background-color: var(--main-color);
+  color: var(--third-main-color);
 }
 .social-href:focus {
   background-color: var(--main-color);
+  color: var(--third-main-color);
 }
-.social-href:hover .social-icon {
-  fill: var(--third-main-color);
-}
+
 .skills {
   font-size: 16px;
   line-height: 1.19;
