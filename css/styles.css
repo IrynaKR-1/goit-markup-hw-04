@@ -3,6 +3,7 @@
   --main-color-text: #212121;
   --second-main-color: #757575;
   --third-main-color: #ffffff;
+  --icon-main-color: #afb1b8;
 }
 /* ul {
   margin: 0;
@@ -323,13 +324,22 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--main-color);
+  background-color: var(--third-main-color);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .social-icon {
-  fill: #ffffff;
+  fill: var(--icon-main-color);
+}
+.social-href:hover {
+  background-color: var(--main-color);
+}
+.social-href:focus {
+  background-color: var(--main-color);
+}
+.social-href:hover .social-icon {
+  fill: var(--third-main-color);
 }
 .skills {
   font-size: 16px;
