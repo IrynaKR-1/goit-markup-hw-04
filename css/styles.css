@@ -265,12 +265,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .advantage-icon {
   fill: var(--main-color-text);
 }
 .advantage-href:hover .advantage-icon {
   fill: var(--main-color);
+  border-color: var(--main-color);
 }
 
 .container-works {
