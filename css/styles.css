@@ -350,6 +350,13 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.clients-href {
+  border-color: var(--third-main-color);
+}
+.clients-href:hover,
+.clients-href:focus {
+  border-color: var(--main-color);
+}
 .clients-ul {
   text-decoration: none;
   list-style: none;
