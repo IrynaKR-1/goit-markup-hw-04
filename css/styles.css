@@ -350,6 +350,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .clients-href {
   width: 170px;
   height: 92px;
@@ -365,11 +366,16 @@ body {
   border-color: var(--main-color);
 }
 .clients-href:hover .clients-icon {
-  fill: var(--third-main-color);
+  fill: var(--main-color);
 }
 .clients-ul {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
 }
 .clients-icon {
   fill: var(--icon-main-color);
