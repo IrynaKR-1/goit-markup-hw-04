@@ -266,6 +266,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+.advantage-icon {
+  fill: var(--main-color-text);
+}
+.advantage-href:hover .advantage-icon {
+  fill: var(--main-color);
+}
 
 .container-works {
   width: 100%;
