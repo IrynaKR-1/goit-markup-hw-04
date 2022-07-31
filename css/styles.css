@@ -328,7 +328,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--third-main-color);
+  fill: var(--icon-main-color);
 }
 
 .social-href:hover {
