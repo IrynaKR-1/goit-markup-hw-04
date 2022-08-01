@@ -51,8 +51,7 @@ p {
   fill: var(--second-main-color);
   margin-right: 10px;
 }
-.header-link-style .header-icon-tel:hover,
-.header-link-style .header-icon-tel:focus {
+.header-link-style:hover .header-icon-tel {
   fill: var(--main-color);
 }
 .logo {
