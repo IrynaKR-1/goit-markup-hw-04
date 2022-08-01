@@ -49,6 +49,7 @@ p {
 .header-icon-tel,
 .header-icon-mail {
   fill: var(--second-main-color);
+  margin-right: 10px;
 }
 
 .logo {
