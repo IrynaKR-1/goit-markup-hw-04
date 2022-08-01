@@ -46,6 +46,10 @@ p {
   display: flex;
   margin-left: auto;
 }
+.header-icon-tel,
+.header-icon-mail {
+  fill: var(--second-main-color);
+}
 
 .logo {
   text-decoration: none;
