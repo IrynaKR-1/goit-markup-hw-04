@@ -385,7 +385,9 @@ body {
 .social-href:hover .social-icon {
   fill: var(--third-main-color);
 }
-
+.social-href:focus .social-icon {
+  fill: var(--third-main-color);
+}
 .clients-section {
   margin-left: auto;
   margin-right: auto;
