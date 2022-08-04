@@ -288,7 +288,10 @@ body {
   fill: var(--main-color);
   border-color: var(--main-color);
 }
-
+.advantage-href:focus .advantage-icon {
+  fill: var(--main-color);
+  border-color: var(--main-color);
+}
 .container-works {
   width: 100%;
   margin-left: auto;
