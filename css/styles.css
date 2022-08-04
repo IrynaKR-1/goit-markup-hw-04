@@ -545,6 +545,7 @@ body {
 }
 
 .button-portfolio:hover {
+  color: var(--third-main-color);
   background-color: var(--main-color);
 }
 .button-portfolio:focus {
